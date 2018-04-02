@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.clusters.test.smoke.TestLoginS13879">
+        <methods>
+          <include name="postCondition"/>
+          <include name="testLoginInvalidTC18965"/>
+          <include name="preCOndition"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.clusters.test.smoke.TestLoginS13879 -->
+      <class name="com.clusters.test.smoke.TestLoginU18567">
+        <methods>
+          <include name="preCondition"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="postCondition"/>
+          <include name="beforeSuite"/>
+          <include name="testLoginInvalidTC15679"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.clusters.test.smoke.TestLoginU18567 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

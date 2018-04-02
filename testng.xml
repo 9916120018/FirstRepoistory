@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.clusters.test.regression.TestNGClass1"/>
+      <class name="com.clusters.test.smoke.TestLoginS13879"/>
+      <class name="com.clusters.test.smoke.TestLoginU18567"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
